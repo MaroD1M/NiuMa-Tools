@@ -115,26 +115,6 @@ streamlit run app/main.py
 
 - 建议在可信网络环境使用
 
-## 🔧 开发构建
-
-### 🐳 构建镜像
-
-```Bash
-docker build -t word-excel-tool .
-```
-
-### 🏗️ 本地开发
-
-```Bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate  # Windows
-pip install -r requirements.txt
-streamlit run app/main.py
-```
-
----
-
 ⭐ 如果这个项目对你有帮助，请给我们一个Star！
 
 🌐 访问地址：[http://localhost:12344](http://localhost:12344)（部署后）
