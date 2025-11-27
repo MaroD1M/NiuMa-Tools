@@ -1,4 +1,3 @@
-# 修复版本检查问题 - 放在所有 import 之前
 import os
 import sys
 import warnings
