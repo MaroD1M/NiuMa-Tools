@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   word-excel-replace:
-    image: ghcr.io/${GITHUB_USERNAME:-MaroD1M}/word-excel-replace-tool:${TAG:-latest}
+    image: ghcr.io/${GITHUB_USERNAME:-MaroD1M}/NiuMa-Tools:${TAG:-latest}
     container_name: word-excel-replace-tool
     network_mode: bridge
     ports:
@@ -14,6 +14,7 @@ services:
     # 可选：数据持久化
     # volumes:
     #   - ./data:/app/data
+
 
 
 
