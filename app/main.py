@@ -1,4 +1,3 @@
-# 修复版本检查问题 - 放在所有 import 之前
 import os
 import sys
 import warnings
@@ -649,4 +648,5 @@ with st.container():
     - 大文件建议分批次处理（每次1000行以内）。
 
     """, unsafe_allow_html=True)
+
 
