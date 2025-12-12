@@ -26,8 +26,8 @@
 version: '3.8'
 services:
   word-excel-replace:
-    image: ghcr.io/marod1m/word-excel-replace:latest
-    container_name: Word-excel-replace-tool
+    image: ghcr.io/marod1m/wordreplace:latest
+    container_name: Wordreplace-tool
     network_mode: bridge
     ports:
       - "12344:8501"
@@ -41,8 +41,8 @@ services:
 ### ⚡ 本地运行
 
 ```Bash
-git clone https://github.com/你的用户名/word-excel-replace-tool.git
-cd word-excel-replace-tool
+git clone https://github.com/你的用户名/wordreplace.git
+cd wordreplace
 pip install -r requirements.txt
 streamlit run app/main.py
 ```
